@@ -1,0 +1,58 @@
+.container{
+    width:80%;
+    height: 80vh;
+    background: #444;
+    margin-left: 10%;
+    position: relative;
+}
+
+#button2{
+    position: absolute;
+    right:20px;
+    top:20px;
+    background: yellow;
+    border: none;
+}
+
+#button1{
+    background: yellow;
+    position: absolute;
+    left:20px;
+    top: 20px;
+    border: none;
+}
+
+#modal1{
+    position: absolute;
+    height: 60vh;
+    width: 70%;
+    background: green;
+    top:60px;
+    left: 140px;
+    display: none;
+}
+
+#modal2{
+    position: absolute;
+    height: 60vh;
+    width: 70%;
+    background: green;
+    top:60px;
+    left: 140px;
+    display: none;
+}
+
+#delete2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: black;
+    color: white;
+}
+#delete1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: black;
+    color: white;
+}

@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+h1{
+    display: inline-block;
+}
+
+.container1{
+    height:50vh;
+    width:50%;
+    margin-top: 20px;
+    position: absolute;
+    left:25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border:lightblue 1px solid;
+
+}
+
+.main-header h1{
+    margin-left:7px;
+}
+
+.main-header h1 span,.main-header i{
+    color:lightblue;
+}
+
+.main-header {
+    padding-bottom: 10px;
+}
+
+
+.confirmation{
+    text-align: center;
+    width: 33%;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    z-index: -1;
+}
+
+.container1 .container form label{
+    display: block;
+    width:26%;
+    
+}
+
+.container1 .container form input{
+    width: 80%;
+}
+
+.container1 .container form div{
+    margin-bottom: 10px;
+}
+
+.container1 .container form button{
+    width: 80%;
+    background-color: lightblue;
+    border: none;
+    padding:5px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+
+.container1 .container table{
+    width:50%;
+    margin-left: 40px;
+    
+}
+
+.container1 .container table thead td{
+    font-weight: 800;
+}
+
+.container1 .container table thead{
+    background-color: lightgrey;
+}
+.container1 .container table tbody:nth-child(odd){
+    background-color: white;
+}
+.container1 .container table tbody:nth-child(even){
+    background-color: lightsteelblue;
+}
+
+.show{
+    z-index: 1;
+}
+
+
+
+
+
+

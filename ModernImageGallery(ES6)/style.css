@@ -1,0 +1,67 @@
+body{
+    background: #444;
+}
+.container{
+    margin-left:30%;
+    margin-top: 30px;
+    padding:0;
+    width: 500px;
+    height: 500px;
+    border: 1px white solid;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-gap:5px;
+}
+
+.group{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:5px;
+}
+
+
+
+.mainshow{
+    opacity: 0.5;
+    transition: all 1s ease-in-out;
+}
+.img1{
+    background: url('img/p1.jpeg') center center/cover no-repeat;
+    transition: all 1s ease-in-out;
+
+}
+.img2{
+    background: url('img/p2.jpeg') center center/cover no-repeat;
+    transition: all 1s ease-in-out;
+}
+.img3{
+    background: url('img/p3.jpeg') center center/cover no-repeat;
+    transition: all 1s ease-in-out;
+}
+.img4{
+    background: url('img/p4.jpeg') center center/cover no-repeat;
+    transition: all 1s ease-in-out;
+}
+.img5{
+    background: url('img/p5.jpeg') center center/cover no-repeat;
+    transition: all 1s ease-in-out;
+}
+.img6{
+    background: url('img/p6.jpeg') center center/cover no-repeat;
+    transition: all 1s ease-in-out;
+}
+.img7{
+    background: url('img/p7.jpeg') center center/cover no-repeat;
+    transition: all 1s ease-in-out;
+}
+.img8{
+    background: url('img/p8.jpeg') center center/cover no-repeat;
+    transition: all 1s ease-in-out;
+}
+
+
